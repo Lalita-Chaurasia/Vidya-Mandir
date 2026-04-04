@@ -1,0 +1,21 @@
+body{margin:0;font-family:Poppins, sans-serif;background:#0f172a;color:white}
+ header{display:flex;justify-content:space-between;padding:20px;background:#020617;position:sticky;top:0} 
+ nav a{color:white;margin:10px;text-decoration:none} 
+ nav a:hover{color:#38bdf8} 
+ .hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background:linear-gradient(270deg,#0f172a,#1e3a8a,#0ea5e9);background-size:600% 600%;animation:move 10s infinite} 
+ @keyframes
+    move{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}} 
+    
+section{padding:60px;text-align:center} 
+.cards{display:flex;gap:20px;justify-content:center;flex-wrap:wrap} 
+
+.card{background:#1e293b;padding:20px;border-radius:10px;transition:0.3s} 
+.card:hover{transform:translateY(-10px);background:#0ea5e9} 
+.gallery{display:flex;gap:20px;justify-content:center;flex-wrap:wrap} 
+.gallery img{width:250px;border-radius:10px;transition:0.3s} 
+.gallery img:hover{transform:scale(1.05)} input,textarea,button{display:block;margin:10px auto;padding:10px;width:250px;border-radius:6px;border:none} 
+button{background:#0ea5e9;color:white;cursor:pointer} 
+button:hover{background:#0284c7}
+
+
+
