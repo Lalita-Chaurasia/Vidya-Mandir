@@ -2,7 +2,14 @@ body{margin:0;font-family:Poppins, sans-serif;background:#0f172a;color:white}
  header{display:flex;justify-content:space-between;padding:20px;background:#020617;position:sticky;top:0} 
  nav a{color:white;margin:10px;text-decoration:none} 
  nav a:hover{color:#38bdf8} 
- .hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background:linear-gradient(270deg,#0f172a,#1e3a8a,#0ea5e9);background-size:600% 600%;animation:move 10s infinite} 
+ .hero{height:100vh;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ background:linear-gradient(270deg,#0f172a,#1e3a8a,#0ea5e9);
+ background-size:600% 600%;
+ animation:move 10s infinite} 
  @keyframes
     move{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}} 
     
