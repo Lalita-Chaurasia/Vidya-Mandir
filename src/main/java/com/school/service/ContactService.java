@@ -5,7 +5,8 @@ import org.springframework.stereotype.Service;
 import com.school.model.Contact; 
 import com.school.repository.ContactRepository;
 
-@Service public class ContactService {
+@Service 
+public class ContactService {
 
 @Autowired
 private ContactRepository repo;
