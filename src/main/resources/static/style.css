@@ -4,7 +4,7 @@ body{margin:0;font-family:Poppins, sans-serif;background:#0f172a;color:white}
  nav a:hover{color:#38bdf8} 
  .hero{
  height:100vh;
- background-image:url(https://www.google.com/imgres?q=school%20background%20images&imgurl=https%3A%2F%2Fpng.pngtree.com%2Fthumb_back%2Ffh260%2Fbackground%2F20250226%2Fpngtree-back-to-school-chalkboard-with-supplies-and-math-equations-for-classroom-image_16963243.jpg&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fschool&docid=iIBfgDvLpHZJvM&tbnid=fSj2k85pvcn5GM&vet=12ahUKEwiI1vvzyN2TAxXOS3ADHbzKLNYQnPAOegQIHRAB..i&w=455&h=260&hcb=2&ved=2ahUKEwiI1vvzyN2TAxXOS3ADHbzKLNYQnPAOegQIHRAB);
+ 
  display:flex;
  flex-direction:column;
  justify-content:center;
